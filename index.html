@@ -22,14 +22,14 @@
             <h1>DIE TRYING</h1>
             <p>PARTYNEXTDOOR, Drake, Yebba</p>
 
-            <audio controls>
+            <audio  id="song">
                 <source src="PARTYNEXTDOOR, Drake, Yebba - DIE TRYING [b5bR2NqDpqI].mp3">
             </audio>
             <input type="range" value="0" id="progress">
 
             <div class="controls">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div><i class="fa-solid fa-circle-play"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-circle-play" id="ctrlIcon"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>
             </div>
         </div>
